@@ -45,11 +45,11 @@ var greeting;
 
     
     var cars = ["Mercedes", "BMW", "Porche", "Citroen", "Peugeot", "Fiat", "GM", "Wolkswagen", "Ford", "Lincoln"];
-    var text = " ";
-    var i;
 
 
     function listCars(){
+        var text = " ";
+        var i;
        
         for ( i=0; i<cars.length; i++ ){
             text += cars[i] + "<br>";
@@ -65,10 +65,12 @@ var greeting;
     }
 
     function listCars_Black(){
-        var textCarsBlack = text;                           // cum putem simplfica functia listCars_Red() utilizind functia listCars()???
+        var text = " ";
+        var i;
+        var textCarsBlack = text;                           
         for ( i=0; i<cars.length; i++ ){
             if (i===5){break;}
-            textCarsBlack += cars[i] + "<br>";              // de fiecare data cind apasam butonul lista se multiplica, cum putem opri asta?
+            textCarsBlack += cars[i] + "<br>";             
         
         document.getElementById("delta").innerHTML= textCarsBlack; 
         
@@ -76,11 +78,10 @@ var greeting;
     }
 
     function listCars_German(){
+        var text = " ";
+        var i;
         for ( i=0; i<cars.length; i++ ){
-            if (i===3){continue;}
-            if (i===4){continue;}               // de asemenea, cum putem simplifica?
-            if (i===5){continue;}               // calculatorul meu listeaza toate masinile cind apas prima oara butonul 4, dupa refresh listeaza corect. de ce oare?
-            if (i===6){continue;}
+            if (i===3 || i===4 || i===5 || i===6){continue;}
             if (i===8){break;}
             text += cars[i] + "<br>";             
         
@@ -96,3 +97,5 @@ var greeting;
 // }
 
 // HandleUserInput();  
+
+       
