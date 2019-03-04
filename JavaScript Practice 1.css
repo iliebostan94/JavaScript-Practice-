@@ -5,12 +5,12 @@
 }
 
 #alfa{
-    color: black;
+    color:rgb(4, 223, 150);
     text-align: right;
     }
 
 #beta{
-    color: rgba(235, 106, 0, 0.918);
+    color:rgba(235, 106, 0, 0.918);
     text-align: right;
     text-decoration: underline;
     font-size: 20px;
