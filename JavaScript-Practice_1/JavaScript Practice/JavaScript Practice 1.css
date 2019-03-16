@@ -1,0 +1,31 @@
+#MainTitle{
+    color:Tomato;
+    background-color:DodgerBlue;
+    text-align: center;
+}
+
+#alfa{
+    color:rgb(4, 223, 150);
+    text-align: right;
+    }
+
+#beta{
+    color:rgba(235, 106, 0, 0.918);
+    text-align: right;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#userinput{
+    background-color: #3CBC8D;
+    color: white;
+}
+
+.OptionButton {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    width: 24%;
+  }
